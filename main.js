@@ -18,8 +18,9 @@ if (form !=""){
     array = document.getElementsByClassName("form-control");
     
     Formdata = []
-    for (let i = 0; i < 14; i++) {
-        Formdata.push(array[i].ariaLabel + ", " +  array[i].ariaValueText);
+    for (let i = 0; i < 19; i++) {
+        Formdata.push(array[i].ariaLabel+"" +", "+ array[i].ariaValueText);
+       // Formdata.push(array[i].replace("\" ","") + ","+  array[i].replace("\" ",""));
     };
     //console.log(array);
     console.log(Formdata)
