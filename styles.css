@@ -1,0 +1,36 @@
+.report {
+    text-align: justify;
+    width: 22cm;
+}
+
+.heading1 {
+    text-align: center;
+    text-decoration-line: underline;
+    width: 22cm;
+}
+
+.heading2 {
+    text-align: justify;
+    width: 22cm;
+}
+
+.heading3 {
+    text-align: justify;
+    width: 22cm;
+    text-decoration-line: underline;
+}
+
+.bullets {
+    text-align: justify;
+    width: 22cm;
+    text-indent: 2px hanging each-line;
+}
+
+.bullets-report {
+    width: 22cm;
+    margin-left:-1.45%;
+}
+
+.text {
+    margin-left:1.5%;
+}
